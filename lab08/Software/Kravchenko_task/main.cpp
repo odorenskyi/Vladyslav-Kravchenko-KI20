@@ -7,9 +7,6 @@
 #include "moduleskravchenko.h"
 using namespace std;
 
-
-
-
 int main()
 {
     _setmode(_fileno(stdout), _O_U16TEXT);
@@ -40,6 +37,7 @@ int main()
     }
 
     wcout << L"S=" << s_calculation(x, y, z);
+    system("pause");
 
     return 0;
 }
